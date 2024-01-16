@@ -25,7 +25,7 @@ COPY --from=bins --chmod=0755 /caddy /usr/bin/caddy
 WORKDIR /app
 
 COPY Caddyfile ./
-COPY . .
+COPY ./ ./
 
 ENTRYPOINT ["multirun"]
 

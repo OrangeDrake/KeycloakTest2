@@ -2,7 +2,7 @@ FROM quay.io/keycloak/keycloak:22.0.1
 
 WORKDIR /app
 
-COPY ./master-realm.json ./opt/keycloak/data/import
+COPY ./master-realm.json ./opt/keycloak/data/import/master-realm.json
 
 
 
